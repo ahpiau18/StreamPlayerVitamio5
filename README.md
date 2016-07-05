@@ -18,8 +18,9 @@ Vitamio.isInitialized(this);
 
 ```
 
-In version 5.0.0, OnPrepareListener will not fire, if you do not implement @Overwrite onInfo <br>
-Below example will works
+In version 5.0.0, OnPrepareListener will not fire, if you implement @Overwrite onInfo <br>
+this will fix the playback issue.
+Refer Example below.
 
 ```sh
 public class MainActivity extends AppCompatActivity {
